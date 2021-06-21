@@ -1,4 +1,4 @@
-### MarkovEV arbitrage
+# MarkovEV arbitrage
 
 This repository use Markov model to predict real-time price bias (compare to day-ahead price) and evaluate battery state-of-charge(SoC) level. With value function of SoC, we optimize battery price abitrage using stochastic dynamic programming.
 
@@ -6,7 +6,7 @@ This repository use Markov model to predict real-time price bias (compare to day
 
 Markov models for 4 zones in NYISO are pre-trained and saved in csv files. Python scripts are available for other Markov model training. Use Matlab scripts to test different cases.
 
-# Markov Model Trainning
+### Markov Model Trainning
 
 Use pre_processing_main.py script:
 
@@ -16,7 +16,7 @@ Use Line 12-13 to change location by changing real-time price and day-ahead-pric
 
 optional_kwargs are in Line 35.
 
-# Battery Arbitrage Case Setting
+### Battery Arbitrage Case Setting
 
 Use main_EV.m script:
 
@@ -48,30 +48,30 @@ eta is battery one-way efficiency.
 
 c is marginal discharge cost - degradation, only used in bidirection cases.
 
-# Organization of this directory
+### Organization of this directory
 Folder PATH listing for volume OS
 Volume serial number is 000000C5 5EFD:6DDE
 C:\USERS\WENMI\DESKTOP\EVARBITRAGE
-©¦  Arb_Value.m
-©¦  Arb_Value_Charge.m
-©¦  CalcValueNoUnc.m
-©¦  CalcValueNoUnc_Charge.m
-©¦  main_EV.m
-©¦  pre_processing_functions.py
-©¦  pre_processing_main.py
-©¦  README.md
-©¦      
-©À©¤DAP_data
-©¦      DAP_LONGIL_2010_2019.mat
-©¦      DAP_NORTH_2010_2019.mat
-©¦      DAP_NYC_2010_2019.mat
-©¦      DAP_WEST_2010_2019.mat
-©¦      
-©À©¤RTP_data
-©¦      RTP_LONGIL_2010_2019.mat
-©¦      RTP_NORTH_2010_2019.mat
-©¦      RTP_NYC_2010_2019.mat
-©¦      RTP_WEST_2010_2019.mat
-©¦      
-©¸©¤transition_matrix
+å²«  Arb_Value.m
+å²«  Arb_Value_Charge.m
+å²«  CalcValueNoUnc.m
+å²«  CalcValueNoUnc_Charge.m
+å²«  main_EV.m
+å²«  pre_processing_functions.py
+å²«  pre_processing_main.py
+å²«  README.md
+å²«      
+å¿µå²¸DAP_data
+å²«      DAP_LONGIL_2010_2019.mat
+å²«      DAP_NORTH_2010_2019.mat
+å²«      DAP_NYC_2010_2019.mat
+å²«      DAP_WEST_2010_2019.mat
+å²«      
+å¿µå²¸RTP_data
+å²«      RTP_LONGIL_2010_2019.mat
+å²«      RTP_NORTH_2010_2019.mat
+å²«      RTP_NYC_2010_2019.mat
+å²«      RTP_WEST_2010_2019.mat
+å²«      
+å¼©å²¸transition_matrix
 
