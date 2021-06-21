@@ -48,30 +48,4 @@ eta is battery one-way efficiency.
 
 c is marginal discharge cost - degradation, only used in bidirection cases.
 
-### Organization of this directory
-Folder PATH listing for volume OS
-Volume serial number is 000000C5 5EFD:6DDE
-C:\USERS\WENMI\DESKTOP\EVARBITRAGE
-岫  Arb_Value.m
-岫  Arb_Value_Charge.m
-岫  CalcValueNoUnc.m
-岫  CalcValueNoUnc_Charge.m
-岫  main_EV.m
-岫  pre_processing_functions.py
-岫  pre_processing_main.py
-岫  README.md
-岫      
-念岸DAP_data
-岫      DAP_LONGIL_2010_2019.mat
-岫      DAP_NORTH_2010_2019.mat
-岫      DAP_NYC_2010_2019.mat
-岫      DAP_WEST_2010_2019.mat
-岫      
-念岸RTP_data
-岫      RTP_LONGIL_2010_2019.mat
-岫      RTP_NORTH_2010_2019.mat
-岫      RTP_NYC_2010_2019.mat
-岫      RTP_WEST_2010_2019.mat
-岫      
-弩岸transition_matrix
 
